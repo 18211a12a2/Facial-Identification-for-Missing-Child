@@ -66,7 +66,7 @@ class NewCase(QMainWindow):
         self.setWindowTitle(self.title)
 
         upload_image_button = QPushButton("Upload Image", self)
-        upload_image_button.resize(150, 50)
+        upload_image_button.resize(150,50)
         upload_image_button.move(self._x_axis, 20)
         upload_image_button.clicked.connect(self.openFileNameDialog)
 
